@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        tools:context=".ui.settings.SettingsFragment">
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switch_night_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Activate night mode" />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/switch_night_mode"
+            android:id="@+id/switch_hide_synonyms"
+            android:text="Hide synonyms in the details page"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/btn_clear_all_data"
+            android:id="@+id/btn_write_us"
+            android:text="Write us"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/btn_clear_all_data"
+            android:text="Clear All Data"/>
+    </RelativeLayout>
+</layout>
