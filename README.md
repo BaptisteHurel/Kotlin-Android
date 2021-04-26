@@ -1,3 +1,3 @@
-TP StatsCovid par pays 
+###TP StatsCovid par pays 
 
-Fait par : Baptiste Hurel
+**Fait par : Baptiste Hurel**
