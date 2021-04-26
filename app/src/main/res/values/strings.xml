@@ -1,0 +1,5 @@
+<resources>
+    <string translatable="false" name="app_name">TPStatsCovid</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_settings">Settings</string>
+</resources>
