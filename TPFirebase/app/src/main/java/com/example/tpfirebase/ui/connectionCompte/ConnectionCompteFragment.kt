@@ -9,11 +9,12 @@ import android.widget.Toast
 import androidx.biometric.BiometricPrompt
 import androidx.core.content.ContextCompat
 import androidx.databinding.DataBindingUtil
+import androidx.databinding.DataBindingUtil.setContentView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.tpfirebase.R
 import java.util.concurrent.Executor
-import com.example.tpfirebase.databinding.FragmentConnectionCompteBinding
+//import com.example.tpfirebase.databinding.FragmentSettingsBinding
 
 
 class ConnectionCompteFragment : Fragment() {

@@ -12,6 +12,8 @@ import androidx.lifecycle.ViewModelProvider
 import com.example.tpfirebase.R
 import com.example.tpfirebase.data.Prefs
 import com.example.tpfirebase.databinding.FragmentSettingsBinding
+import com.example.app.databinding.FragmentDataBdinding;
+
 
 class SettingsFragment : Fragment() {
 
