@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TPFirebase</string>
+    <string name="menu_creation">Creation Compte</string>
+    <string name="menu_connection">Connection Compte</string>
+</resources>

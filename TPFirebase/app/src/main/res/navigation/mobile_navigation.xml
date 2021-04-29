@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_creationCompte">
+
+    <fragment
+        android:id="@+id/navigation_creationCompte"
+        android:name="com.example.tpfirebase.ui.creationCompte.CreationCompteFragment"
+        android:label="menu_creationCompte">
+        <action
+            android:id="@+id/action_navigation_creationCompte_to_navGeolocalisation"
+            app:destination="@id/navGeolocalisation" />
+        <action
+            android:id="@+id/action_navigation_creationCompte_to_navigation_connectionCompte"
+            app:destination="@id/navigation_connectionCompte" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_connectionCompte"
+        android:name="com.example.tpfirebase.ui.connectionCompte.ConnectionCompteFragment"
+        android:label="menu_connectionCompte">
+        <action
+            android:id="@+id/action_navigation_connectionCompte_to_navGeolocalisation"
+            app:destination="@id/navGeolocalisation" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navGeolocalisation"
+        android:name="com.example.tpfirebase.ui.connectionCompte.ConnectionCompteFragment"
+        android:label="menu_geolocalisation"
+        tools:layout="@layout/accueil" />
+
+</navigation>
